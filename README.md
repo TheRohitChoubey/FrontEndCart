@@ -9,16 +9,16 @@ Prerequisite to be known:
 ## Installation
 Clone from repository:
 ```
-$ git clone https://github.com/Yashwanth70/HackerEarth-FrontEnd-Challenge.git
+$ git clone https://github.com/TheRohitChoubey/FrontEndCart.git
 ```
 Install dependencies:
 ```js
-$ yarn // or 'npm install'
+'npm install --verbose'
 ```
 
 ## Running
 Build files and start local server in watch mode:
 ```js
-$ yarn start // or 'npm start'
+'npm start'
 ```
-Open the web browser to `http://localhost:8080/` and you will see Shopping cart Page.
+Open the web browser to `http://localhost:8081/` and you will see Shopping cart Page.

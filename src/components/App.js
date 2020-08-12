@@ -33,23 +33,23 @@ const App = ({ cardsCount,state,total,discount,typeDiscount }) => (
 	  				<tr>
 	  					<td>Items({cardsCount})</td>
 	  					<td>:</td>
-	  					<td>Rs . {total}</td>
+	  					<td>${total}</td>
 	  				</tr>
 	  				<tr>
 	  					<td>Discount</td>
 	  					<td>:</td>
-	  					<td>Rs . {discount}</td>
+	  					<td>${discount}</td>
 	  				</tr>
 	  				<tr>
 	  					<td>Type discount</td>
 	  					<td>:</td>
-	  					<td>Rs . {typeDiscount}</td>
+	  					<td>${typeDiscount}</td>
 	  				</tr>
 	  			</tbody>
 	  			<tfoot>
 	  					<td>Order Total</td>
 	  					<td>:</td>
-	  					<td>Rs . {total-discount-typeDiscount}</td>
+	  					<td>${total-discount-typeDiscount}</td>
 	  			</tfoot>
 	  		</table>
 	  		</div>
@@ -72,24 +72,24 @@ const App = ({ cardsCount,state,total,discount,typeDiscount }) => (
 	  				<tr>
 	  					<td>Items({cardsCount})</td>
 	  					<td>:</td>
-	  					<td>Rs . {total}</td>
+	  					<td>${total}</td>
 	  				</tr>
 	  				<tr>
 	  					<td>Discount</td>
 	  					<td>:</td>
-	  					<td>Rs . {discount}</td>
+	  					<td>${discount}</td>
 	  				</tr>
 	  				<tr>
 	  					<td>Type discount</td>
 	  					<td>:</td>
-	  					<td>Rs . {typeDiscount}</td>
+	  					<td>${typeDiscount}</td>
 	  				</tr>
 	  			</tbody>
 	  			<tfoot>
 	  				<tr>
 	  					<td>Order Total</td>
 	  					<td>:</td>
-	  					<td>Rs . {total-discount-typeDiscount}</td>
+	  					<td>${total-discount-typeDiscount}</td>
 	  				</tr>
 	  			</tfoot>
 	  		</table>

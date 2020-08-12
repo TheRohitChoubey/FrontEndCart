@@ -26,7 +26,7 @@ const Board1 = ({state,remove,removeCart,addCart,showToast}) => (
 	                	onAddCart={addCart}
 	            	/>
 	            </td>
-	            <td>Rs . {element.price * element.quantity}</td>
+	            <td>${element.price * element.quantity}</td>
             </tr>
         )}
     </tbody>
